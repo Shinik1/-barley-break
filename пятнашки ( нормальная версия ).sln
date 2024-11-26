@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "пятнашки ( нормальная версия )", "пятнашки ( нормальная версия )\пятнашки ( нормальная версия ).pyproj", "{16FC34D1-F9E3-4DC0-BB7B-49939C7F1CCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16FC34D1-F9E3-4DC0-BB7B-49939C7F1CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FC34D1-F9E3-4DC0-BB7B-49939C7F1CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {778DC355-857D-4ADB-B682-91D59F08F6E5}
+	EndGlobalSection
+EndGlobal
