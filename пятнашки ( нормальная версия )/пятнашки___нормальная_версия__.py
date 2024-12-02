@@ -3,6 +3,7 @@ import numpy as np
 from prettytable import PrettyTable
 
 def fill_pole(pole):
+    
 #заполняем поле на рандом 
     used_x = [] #использованные числа
     for i in range (4): #проходка по столбцам
