@@ -8,7 +8,7 @@ def fill_pole(pole):
     used_x = [] #использованные числа
     for i in range (4): #проходка по столбцам
         for j in range(4): #проходка по строке
-            x = random.randint(0,15) #рандом от 0 до 15 (зачем я написал этот комментарий?)
+            x = random.randint(0,15) #рандом от 0 до 15 
             while x in used_x: #провека на повтор числа
                 x = random.randint(0,15)
             used_x.append(x) #добавление числа в список использованных
@@ -23,7 +23,7 @@ def print_pole(pole):
 #вывод поля
     used_num = []
     x = PrettyTable()
-    x.field_names = ['ÏßÒ','ÍÀØ','ÊÈ','ALPHA']
+    x.field_names = ['ПЯТ','НАШ','КИ','ALPHA']   # ХОЧУ НОРМАЛЬНУЮ ТАБЛИЦУ!!!!!!!!!!!!!!!!!!!
     for j in range(4): #проходка по строкам
         x.add_row([pole [0][j],pole[1][j],pole[2][j],pole[3][j]])
                
@@ -38,9 +38,9 @@ def mexanika(pole, win_pole):
                   swap_0_x = i
                   swap_0_y = j
 
-        swap_1 = input('Ââåäèòå êëåòêó, êîòîðóþ õîòèòå ïåðåìåñòèòü ')
+        swap_1 = input('Введите клетку, которую хотите переместить: ')
         while swap_1 not in ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15']:
-            swap_1 = input('Ýòà êëåòêà íå äîñòóïíà, âûáåðèòå äðóãóþ ')
+            swap_1 = input('Эта клетка не рядом с пустой ячейкой, введите другую: ')
         swap_1 = int(swap_1)
         
         ok = True
