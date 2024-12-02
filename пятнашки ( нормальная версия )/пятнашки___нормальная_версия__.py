@@ -1,4 +1,3 @@
-# -*- coding: cp1251 -*-
 import random
 import numpy as np
 from prettytable import PrettyTable
